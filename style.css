@@ -1,49 +1,45 @@
-#survey-form
-{
-    border: 1px solid black;
-    box-sizing: border-box;
-    
+#survey-form {
+  border: 1px solid black;
+  box-sizing: border-box;
 }
 
 .h1 {
-    color: rgb(127, 140, 255);
-    display: flex;
-    justify-content:center;
-    padding-top: 24px;
-    padding-bottom: 24px;
-
-  }
+  color: rgb(127, 140, 255);
+  display: flex;
+  justify-content: center;
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
 
 .form {
-    display: flex;
-    box-sizing: border-box;
-    flex-direction: column;
-    background-color: #e5f5f8;
-
+  display: flex;
+  box-sizing: border-box;
+  flex-direction: column;
+  background-color: #e5f5f8;
   margin-top: 0;
   margin-bottom: 5px;
 }
 
 .radio {
-    display: flex;
-    margin: 0%;
-    padding: 0%;
+  display: flex;
+  margin: 0%;
+  padding: 0%;
 }
 
 label {
-    display: flex;
-    flex-direction: row;
-    padding-bottom: 20px;
-    text-align: left;
-  }
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 20px;
+  text-align: left;
+}
 
-  input {
-    height: 20px;
-    flex: 0 0 0px;
-    margin-left: 10px;
-  }
+input {
+  height: 20px;
+  flex: 0 0 0;
+  margin-left: 10px;
+}
 
-  .description {
-    font-family: sans-serif;
-    color: rgb(6, 6, 6);
-  }
+.description {
+  font-family: sans-serif;
+  color: rgb(6, 6, 6);
+}
